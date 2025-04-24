@@ -1,0 +1,14 @@
+{
+  "layers": {
+    "humanoid": [
+      {
+        "texture": "lighttouch:tungsten_armor"
+      }
+    ],
+    "humanoid_leggings": [
+      {
+        "texture": "lighttouch:tungsten_armor"
+      }
+    ]
+  }
+}

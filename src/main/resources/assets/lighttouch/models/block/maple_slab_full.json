@@ -1,0 +1,10 @@
+{
+  "parent": "block/cube_bottom_top",
+  "textures": {
+    "particle": "lighttouch:block/maple_planks",
+    "bottom": "lighttouch:block/maple_planks",
+    "top": "lighttouch:block/maple_planks",
+    "side": "lighttouch:block/maple_planks"
+  },
+  "render_type": "solid"
+}

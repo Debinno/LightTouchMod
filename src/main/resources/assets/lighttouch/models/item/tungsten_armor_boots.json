@@ -1,0 +1,6 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "lighttouch:item/tungsten_boots"
+  }
+}

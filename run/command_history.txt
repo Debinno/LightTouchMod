@@ -1,0 +1,40 @@
+/locate biome minecraft:plains
+/tp @s -189 98 -282
+/locate biome minecraft:plains
+/locate biome minecraft:plains_lt
+/locate biome lighttouch:plains_lt
+/tp @s -82 93 340
+/locate biome lighttouch:plains_lt
+/tp @s 122 -44 -324
+/tp @s 122 100 -324
+/tp @s 12632 100 -32400
+/locate biome lighttouch:plains_lt
+/tp @s 16 66 71
+/tp @s 16 106 71
+/gamerule randomTickSpeed 1000
+/gamerule
+/gamerule randomTickSpeed 1000
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/time set day
+/gamerule doDaylightCycle false
+/gamemode survival
+/give Dev minecraft:crafting_table
+/gamemode creative
+/gamemode survival
+/gamemode creative
+/gamemode survival
+/give Dev minecraft:stick
+/locate biome lighttouch:maple_forest
+/tp @s 952 100 502
+/gamerule randomTickSpeed 100
+/tp @s 9520 100 5020
+/locate biome lighttouch:maple_forest
+/tp @s 9776 292 4796
+/tp @s 9520 100 5020
+/tp @s 9776 292 4796
+/tp @s 9776 292 0
+/tp @s 0 292 0
+/tp @s 0 50 0

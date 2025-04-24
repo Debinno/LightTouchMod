@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "aa",
+    "aa"
+  ],
+  "key": {
+    "a": "lighttouch:maple_log"
+  },
+  "result": {
+    "id": "lighttouch:maple_wood",
+    "count": 3
+  }
+}

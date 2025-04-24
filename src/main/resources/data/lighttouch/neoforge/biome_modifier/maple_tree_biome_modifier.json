@@ -1,0 +1,6 @@
+{
+  "type": "neoforge:add_features",
+  "biomes": "lighttouch:maple_forest",
+  "features": "lighttouch:maple_tree",
+  "step": "surface_structures"
+}

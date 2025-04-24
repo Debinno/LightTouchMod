@@ -1,0 +1,870 @@
+{
+  "mod_elements": [
+    {
+      "name": "LightTouch",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_touch",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "LightTouchMinerals",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_touch_minerals",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "TungstenIngot",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lighttouch/models/item/tungsten_ingot.json",
+          "src/main/resources/assets/lighttouch/items/tungsten_ingot.json",
+          "src/main/java/net/mcreator/lighttouch/item/TungstenIngotItem.java"
+        ]
+      },
+      "path": "~/Tungsten/ores"
+    },
+    {
+      "name": "TungstenOre",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lighttouch/models/block/tungsten_ore.json",
+          "src/main/java/net/mcreator/lighttouch/block/TungstenOreBlock.java",
+          "src/main/resources/data/lighttouch/neoforge/biome_modifier/tungsten_ore_biome_modifier.json",
+          "src/main/resources/data/lighttouch/worldgen/placed_feature/tungsten_ore.json",
+          "src/main/resources/assets/lighttouch/blockstates/tungsten_ore.json",
+          "src/main/resources/data/lighttouch/worldgen/configured_feature/tungsten_ore.json",
+          "src/main/resources/assets/lighttouch/items/tungsten_ore.json",
+          "src/main/resources/data/lighttouch/loot_table/blocks/tungsten_ore.json",
+          "src/main/resources/assets/lighttouch/models/item/tungsten_ore.json"
+        ]
+      },
+      "path": "~/Tungsten/blocks"
+    },
+    {
+      "name": "TungstenBlock",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_block",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lighttouch/block/TungstenBlockBlock.java",
+          "src/main/resources/assets/lighttouch/items/tungsten_block.json",
+          "src/main/resources/assets/lighttouch/models/block/tungsten_block.json",
+          "src/main/resources/data/lighttouch/loot_table/blocks/tungsten_block.json",
+          "src/main/resources/assets/lighttouch/models/item/tungsten_block.json",
+          "src/main/resources/assets/lighttouch/blockstates/tungsten_block.json"
+        ]
+      },
+      "path": "~/Tungsten/blocks"
+    },
+    {
+      "name": "TungstenOreBlockRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore_block_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/tungsten_ore_block_recipe.json"
+        ]
+      },
+      "path": "~/Tungsten/recipes"
+    },
+    {
+      "name": "TungstenBlockOreRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_block_ore_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/tungsten_block_ore_recipe.json"
+        ]
+      },
+      "path": "~/Tungsten/recipes"
+    },
+    {
+      "name": "TungstenOreSmelting",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_ore_smelting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/tungsten_ore_smelting.json"
+        ]
+      },
+      "path": "~/Tungsten/recipes"
+    },
+    {
+      "name": "TungstenRaw",
+      "type": "item",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_raw",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lighttouch/item/TungstenRawItem.java",
+          "src/main/resources/assets/lighttouch/items/tungsten_raw.json",
+          "src/main/resources/assets/lighttouch/models/item/tungsten_raw.json"
+        ]
+      },
+      "path": "~/Tungsten/ores"
+    },
+    {
+      "name": "TungstenPickaxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_pickaxe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lighttouch/items/tungsten_pickaxe.json",
+          "src/main/resources/assets/lighttouch/models/item/tungsten_pickaxe.json",
+          "src/main/java/net/mcreator/lighttouch/item/TungstenPickaxeItem.java"
+        ]
+      },
+      "path": "~/Tungsten/tools"
+    },
+    {
+      "name": "TungstenAxe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_axe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lighttouch/models/item/tungsten_axe.json",
+          "src/main/java/net/mcreator/lighttouch/item/TungstenAxeItem.java",
+          "src/main/resources/assets/lighttouch/items/tungsten_axe.json"
+        ]
+      },
+      "path": "~/Tungsten/tools"
+    },
+    {
+      "name": "TungstenSword",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_sword",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lighttouch/models/item/tungsten_sword.json",
+          "src/main/java/net/mcreator/lighttouch/item/TungstenSwordItem.java",
+          "src/main/resources/assets/lighttouch/items/tungsten_sword.json"
+        ]
+      },
+      "path": "~/Tungsten/tools"
+    },
+    {
+      "name": "TungstenShovel",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_shovel",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lighttouch/models/item/tungsten_shovel.json",
+          "src/main/java/net/mcreator/lighttouch/item/TungstenShovelItem.java",
+          "src/main/resources/assets/lighttouch/items/tungsten_shovel.json"
+        ]
+      },
+      "path": "~/Tungsten/tools"
+    },
+    {
+      "name": "TungstenHoe",
+      "type": "tool",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_hoe",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lighttouch/models/item/tungsten_hoe.json",
+          "src/main/java/net/mcreator/lighttouch/item/TungstenHoeItem.java",
+          "src/main/resources/assets/lighttouch/items/tungsten_hoe.json"
+        ]
+      },
+      "path": "~/Tungsten/tools"
+    },
+    {
+      "name": "TungstenPickaxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_pickaxe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/tungsten_pickaxe_recipe.json"
+        ]
+      },
+      "path": "~/Tungsten/recipes"
+    },
+    {
+      "name": "TungstenAxeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_axe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/tungsten_axe_recipe.json"
+        ]
+      },
+      "path": "~/Tungsten/recipes"
+    },
+    {
+      "name": "TungstenSwordRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_sword_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/tungsten_sword_recipe.json"
+        ]
+      },
+      "path": "~/Tungsten/recipes"
+    },
+    {
+      "name": "TungstenShovelRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_shovel_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/tungsten_shovel_recipe.json"
+        ]
+      },
+      "path": "~/Tungsten/recipes"
+    },
+    {
+      "name": "TungstenHoeRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_hoe_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/tungsten_hoe_recipe.json"
+        ]
+      },
+      "path": "~/Tungsten/recipes"
+    },
+    {
+      "name": "LightTouchTools",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "light_touch_tools",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/CreativeTabs"
+    },
+    {
+      "name": "TungstenArmor",
+      "type": "armor",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lighttouch/models/item/tungsten_armor_leggings.json",
+          "src/main/resources/assets/lighttouch/equipment/tungsten_armor.json",
+          "src/main/resources/assets/lighttouch/items/tungsten_armor_boots.json",
+          "src/main/resources/assets/lighttouch/models/item/tungsten_armor_helmet.json",
+          "src/main/resources/assets/lighttouch/items/tungsten_armor_helmet.json",
+          "src/main/resources/assets/lighttouch/items/tungsten_armor_leggings.json",
+          "src/main/java/net/mcreator/lighttouch/item/TungstenArmorItem.java",
+          "src/main/resources/assets/lighttouch/items/tungsten_armor_chestplate.json",
+          "src/main/resources/assets/lighttouch/models/item/tungsten_armor_boots.json",
+          "src/main/resources/assets/lighttouch/models/item/tungsten_armor_chestplate.json"
+        ]
+      },
+      "path": "~/Tungsten/armor"
+    },
+    {
+      "name": "TungstenArmorHelmetRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_armor_helmet_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/tungsten_armor_helmet_recipe.json"
+        ]
+      },
+      "path": "~/Tungsten/armor"
+    },
+    {
+      "name": "TungstenArmorChestplateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_armor_chestplate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/tungsten_armor_chestplate_recipe.json"
+        ]
+      },
+      "path": "~/Tungsten/armor"
+    },
+    {
+      "name": "TungstenArmorLeggingsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_armor_leggings_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/tungsten_armor_leggings_recipe.json"
+        ]
+      },
+      "path": "~/Tungsten/armor"
+    },
+    {
+      "name": "TungstenArmorBootsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tungsten_armor_boots_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/tungsten_armor_boots_recipe.json"
+        ]
+      },
+      "path": "~/Tungsten/armor"
+    },
+    {
+      "name": "MapleWood",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_wood",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lighttouch/items/maple_wood.json",
+          "src/main/resources/assets/lighttouch/models/item/maple_wood.json",
+          "src/main/resources/data/lighttouch/loot_table/blocks/maple_wood.json",
+          "src/main/resources/assets/lighttouch/blockstates/maple_wood.json",
+          "src/main/java/net/mcreator/lighttouch/block/MapleWoodBlock.java",
+          "src/main/resources/assets/lighttouch/models/block/maple_wood.json"
+        ]
+      },
+      "path": "~/Maple/Blocks"
+    },
+    {
+      "name": "MapleLog",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lighttouch/models/item/maple_log.json",
+          "src/main/resources/data/lighttouch/loot_table/blocks/maple_log.json",
+          "src/main/resources/assets/lighttouch/items/maple_log.json",
+          "src/main/java/net/mcreator/lighttouch/block/MapleLogBlock.java",
+          "src/main/resources/assets/lighttouch/blockstates/maple_log.json",
+          "src/main/resources/assets/lighttouch/models/block/maple_log.json"
+        ]
+      },
+      "path": "~/Maple/Blocks"
+    },
+    {
+      "name": "MaplePlanks",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_planks",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lighttouch/block/MaplePlanksBlock.java",
+          "src/main/resources/assets/lighttouch/items/maple_planks.json",
+          "src/main/resources/assets/lighttouch/blockstates/maple_planks.json",
+          "src/main/resources/assets/lighttouch/models/block/maple_planks.json",
+          "src/main/resources/assets/lighttouch/models/item/maple_planks.json",
+          "src/main/resources/data/lighttouch/loot_table/blocks/maple_planks.json"
+        ]
+      },
+      "path": "~/Maple/Blocks"
+    },
+    {
+      "name": "MapleLeaves",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_leaves",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lighttouch/models/item/maple_leaves.json",
+          "src/main/java/net/mcreator/lighttouch/block/MapleLeavesBlock.java",
+          "src/main/resources/data/lighttouch/loot_table/blocks/maple_leaves.json",
+          "src/main/resources/assets/lighttouch/blockstates/maple_leaves.json",
+          "src/main/resources/assets/lighttouch/items/maple_leaves.json",
+          "src/main/resources/assets/lighttouch/models/block/maple_leaves.json"
+        ]
+      },
+      "path": "~/Maple/Blocks"
+    },
+    {
+      "name": "MapleStairs",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_stairs",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lighttouch/models/block/maple_stairs.json",
+          "src/main/resources/assets/lighttouch/models/item/maple_stairs.json",
+          "src/main/resources/data/lighttouch/loot_table/blocks/maple_stairs.json",
+          "src/main/resources/assets/lighttouch/models/block/maple_stairs_inner.json",
+          "src/main/java/net/mcreator/lighttouch/block/MapleStairsBlock.java",
+          "src/main/resources/assets/lighttouch/models/block/maple_stairs_outer.json",
+          "src/main/resources/assets/lighttouch/items/maple_stairs.json",
+          "src/main/resources/assets/lighttouch/blockstates/maple_stairs.json"
+        ]
+      },
+      "path": "~/Maple/Blocks"
+    },
+    {
+      "name": "MapleSlab",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_slab",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lighttouch/models/item/maple_slab.json",
+          "src/main/resources/data/lighttouch/loot_table/blocks/maple_slab.json",
+          "src/main/resources/assets/lighttouch/blockstates/maple_slab.json",
+          "src/main/resources/assets/lighttouch/models/block/maple_slab_top.json",
+          "src/main/resources/assets/lighttouch/models/block/maple_slab_full.json",
+          "src/main/java/net/mcreator/lighttouch/block/MapleSlabBlock.java",
+          "src/main/resources/assets/lighttouch/models/block/maple_slab.json",
+          "src/main/resources/assets/lighttouch/items/maple_slab.json"
+        ]
+      },
+      "path": "~/Maple/Blocks"
+    },
+    {
+      "name": "MapleFence",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_fence",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/lighttouch/block/MapleFenceBlock.java",
+          "src/main/resources/assets/lighttouch/models/block/maple_fence_post.json",
+          "src/main/resources/assets/lighttouch/models/block/maple_fence_inventory.json",
+          "src/main/resources/data/lighttouch/loot_table/blocks/maple_fence.json",
+          "src/main/resources/assets/lighttouch/models/item/maple_fence.json",
+          "src/main/resources/assets/lighttouch/items/maple_fence.json",
+          "src/main/resources/assets/lighttouch/blockstates/maple_fence.json",
+          "src/main/resources/assets/lighttouch/models/block/maple_fence.json"
+        ]
+      },
+      "path": "~/Maple/Blocks"
+    },
+    {
+      "name": "MapleFenceGate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_fence_gate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lighttouch/models/item/maple_fence_gate.json",
+          "src/main/resources/data/lighttouch/loot_table/blocks/maple_fence_gate.json",
+          "src/main/resources/assets/lighttouch/models/block/maple_fence_gate.json",
+          "src/main/resources/assets/lighttouch/items/maple_fence_gate.json",
+          "src/main/resources/assets/lighttouch/models/block/maple_fence_gate_wall.json",
+          "src/main/resources/assets/lighttouch/models/block/maple_fence_gate_open.json",
+          "src/main/resources/assets/lighttouch/models/block/maple_fence_gate_wall_open.json",
+          "src/main/java/net/mcreator/lighttouch/block/MapleFenceGateBlock.java",
+          "src/main/resources/assets/lighttouch/blockstates/maple_fence_gate.json"
+        ]
+      },
+      "path": "~/Maple/Blocks"
+    },
+    {
+      "name": "MaplePressurePlate",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_pressure_plate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lighttouch/models/block/maple_pressure_plate.json",
+          "src/main/resources/assets/lighttouch/items/maple_pressure_plate.json",
+          "src/main/java/net/mcreator/lighttouch/block/MaplePressurePlateBlock.java",
+          "src/main/resources/data/lighttouch/loot_table/blocks/maple_pressure_plate.json",
+          "src/main/resources/assets/lighttouch/models/block/maple_pressure_plate_down.json",
+          "src/main/resources/assets/lighttouch/blockstates/maple_pressure_plate.json",
+          "src/main/resources/assets/lighttouch/models/item/maple_pressure_plate.json"
+        ]
+      },
+      "path": "~/Maple/Blocks"
+    },
+    {
+      "name": "MapleButton",
+      "type": "block",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_button",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/lighttouch/models/block/maple_button_pressed.json",
+          "src/main/resources/assets/lighttouch/items/maple_button.json",
+          "src/main/java/net/mcreator/lighttouch/block/MapleButtonBlock.java",
+          "src/main/resources/assets/lighttouch/blockstates/maple_button.json",
+          "src/main/resources/assets/lighttouch/models/item/maple_button.json",
+          "src/main/resources/assets/lighttouch/models/block/maple_button.json",
+          "src/main/resources/assets/lighttouch/models/block/maple_button_inventory.json",
+          "src/main/resources/data/lighttouch/loot_table/blocks/maple_button.json"
+        ]
+      },
+      "path": "~/Maple/Blocks"
+    },
+    {
+      "name": "MapleWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/maple_wood_recipe.json"
+        ]
+      },
+      "path": "~/Maple/recipes"
+    },
+    {
+      "name": "MaplePlanksLogRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_planks_log_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/maple_planks_log_recipe.json"
+        ]
+      },
+      "path": "~/Maple/recipes"
+    },
+    {
+      "name": "MaplePlanksWoodRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_planks_wood_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/maple_planks_wood_recipe.json"
+        ]
+      },
+      "path": "~/Maple/recipes"
+    },
+    {
+      "name": "MapleStairsRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_stairs_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/maple_stairs_recipe.json"
+        ]
+      },
+      "path": "~/Maple/recipes"
+    },
+    {
+      "name": "MapleSlabRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_slab_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/maple_slab_recipe.json"
+        ]
+      },
+      "path": "~/Maple/recipes"
+    },
+    {
+      "name": "MapleFenceRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_fence_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/maple_fence_recipe.json"
+        ]
+      },
+      "path": "~/Maple/recipes"
+    },
+    {
+      "name": "MapleFenceGateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_fence_gate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/maple_fence_gate_recipe.json"
+        ]
+      },
+      "path": "~/Maple/recipes"
+    },
+    {
+      "name": "MaplePressurePlateRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_pressure_plate_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/maple_pressure_plate_recipe.json"
+        ]
+      },
+      "path": "~/Maple/recipes"
+    },
+    {
+      "name": "MapleButtonRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_button_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/maple_button_recipe.json"
+        ]
+      },
+      "path": "~/Maple/recipes"
+    },
+    {
+      "name": "MapleStickRecipe",
+      "type": "recipe",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_stick_recipe",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/recipe/maple_stick_recipe.json"
+        ]
+      },
+      "path": "~/Maple/recipes"
+    },
+    {
+      "name": "MapleTree",
+      "type": "feature",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maple_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/lighttouch/worldgen/configured_feature/maple_tree.json",
+          "src/main/resources/data/lighttouch/neoforge/biome_modifier/maple_tree_biome_modifier.json",
+          "src/main/resources/data/lighttouch/worldgen/placed_feature/maple_tree.json"
+        ]
+      },
+      "path": "~/Maple"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {
+    "ITEMS:lighttouch:tungsten_armor_repair_items": [
+      "~CUSTOM:TungstenIngot"
+    ],
+    "ITEMS:minecraft:chest_armor": [
+      "~CUSTOM:TungstenArmor.body"
+    ],
+    "ITEMS:minecraft:hoes": [
+      "~CUSTOM:TungstenHoe"
+    ],
+    "ITEMS:lighttouch:tungsten_hoe_repair_items": [
+      "~CUSTOM:TungstenIngot"
+    ],
+    "BLOCKS:minecraft:leaves": [
+      "~CUSTOM:MapleLeaves"
+    ],
+    "BLOCKS:minecraft:slabs": [
+      "~CUSTOM:MapleSlab"
+    ],
+    "ITEMS:minecraft:axes": [
+      "~CUSTOM:TungstenAxe"
+    ],
+    "BLOCKS:minecraft:stairs": [
+      "~CUSTOM:MapleStairs"
+    ],
+    "ITEMS:lighttouch:tungsten_axe_repair_items": [
+      "~CUSTOM:TungstenIngot"
+    ],
+    "ITEMS:minecraft:swords": [
+      "~CUSTOM:TungstenSword"
+    ],
+    "ITEMS:minecraft:head_armor": [
+      "~CUSTOM:TungstenArmor.helmet"
+    ],
+    "ITEMS:lighttouch:tungsten_pickaxe_repair_items": [
+      "~CUSTOM:TungstenIngot"
+    ],
+    "BLOCKS:minecraft:needs_diamond_tool": [
+      "~CUSTOM:TungstenOre"
+    ],
+    "BLOCKS:minecraft:needs_iron_tool": [
+      "~CUSTOM:TungstenBlock"
+    ],
+    "ITEMS:minecraft:pickaxes": [
+      "~CUSTOM:TungstenPickaxe"
+    ],
+    "ITEMS:lighttouch:tungsten_sword_repair_items": [
+      "~CUSTOM:TungstenIngot"
+    ],
+    "BLOCKS:minecraft:mineable/pickaxe": [
+      "~CUSTOM:TungstenBlock",
+      "~CUSTOM:TungstenOre"
+    ],
+    "BLOCKS:minecraft:mineable/axe": [
+      "~CUSTOM:MaplePlanks",
+      "~CUSTOM:MapleLog",
+      "~CUSTOM:MapleWood"
+    ],
+    "ITEMS:lighttouch:tungsten_shovel_repair_items": [
+      "~CUSTOM:TungstenIngot"
+    ],
+    "BLOCKS:minecraft:fences": [
+      "~CUSTOM:MapleFence"
+    ],
+    "ITEMS:minecraft:shovels": [
+      "~CUSTOM:TungstenShovel"
+    ],
+    "ITEMS:minecraft:foot_armor": [
+      "~CUSTOM:TungstenArmor.boots"
+    ],
+    "ITEMS:minecraft:leg_armor": [
+      "~CUSTOM:TungstenArmor.legs"
+    ]
+  },
+  "tab_element_order": {},
+  "language_map": {
+    "en_us": {
+      "item.lighttouch.tungsten_block": "Block of Tungsten",
+      "item.lighttouch.maple_fence": "Maple Fence",
+      "item.lighttouch.maple_wood": "Maple Wood",
+      "item.lighttouch.maple_leaves": "Maple Leaves",
+      "item.lighttouch.maple_slab": "Maple Slab",
+      "item.lighttouch.maple_planks": "Maple Planks",
+      "item.lighttouch.tungsten_armor_helmet": "Tungsten Helmet",
+      "item.lighttouch.maple_pressure_plate": "Maple Pressure Plate",
+      "item.lighttouch.tungsten_raw": "Raw Tungsten",
+      "item.lighttouch.tungsten_ingot": "Tungsten Ingot",
+      "item_group.lighttouch.light_touch": "Light Touch",
+      "item.lighttouch.tungsten_ore": "Tungsten Ore",
+      "item.lighttouch.maple_button": "Maple Button",
+      "item.lighttouch.tungsten_sword": "Tungsten Sword",
+      "item.lighttouch.maple_stairs": "Maple Stairs",
+      "item.lighttouch.tungsten_shovel": "Tungsten Shovel",
+      "item.lighttouch.tungsten_pickaxe": "Tungsten Pickaxe",
+      "item.lighttouch.maple_log": "Maple Log",
+      "item_group.lighttouch.light_touch_minerals": "Light Touch Minerals",
+      "item.lighttouch.tungsten_armor_chestplate": "Tungsten Chestplate",
+      "item.lighttouch.tungsten_hoe": "Tungsten Hoe",
+      "item_group.lighttouch.light_touch_tools": "Light Touch Tools",
+      "item.lighttouch.maple_fence_gate": "Maple Fence Gate",
+      "item.lighttouch.tungsten_axe": "Tungsten Axe",
+      "item.lighttouch.tungsten_armor_boots": "Tungsten Boots",
+      "item.lighttouch.tungsten_armor_leggings": "Tungsten Leggings"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "Maple",
+        "children": [
+          {
+            "name": "Blocks",
+            "children": []
+          },
+          {
+            "name": "recipes",
+            "children": []
+          }
+        ]
+      },
+      {
+        "name": "CreativeTabs",
+        "children": []
+      },
+      {
+        "name": "Biomes",
+        "children": []
+      },
+      {
+        "name": "Tungsten",
+        "children": [
+          {
+            "name": "ores",
+            "children": []
+          },
+          {
+            "name": "blocks",
+            "children": []
+          },
+          {
+            "name": "recipes",
+            "children": []
+          },
+          {
+            "name": "tools",
+            "children": []
+          },
+          {
+            "name": "armor",
+            "children": []
+          }
+        ]
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "lighttouch",
+    "modName": "LightTouch",
+    "version": "1.0.0",
+    "author": "debin, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "neoforge-1.21.4",
+    "modElementsPackage": "net.mcreator.lighttouch"
+  },
+  "mcreatorVersion": 202500113416
+}

@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "pattern": [
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": "lighttouch:tungsten_ingot"
+  },
+  "result": {
+    "id": "lighttouch:tungsten_armor_helmet",
+    "count": 1
+  }
+}

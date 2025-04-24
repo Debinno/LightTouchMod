@@ -1,0 +1,11 @@
+{
+  "_fv": 77,
+  "_type": "tab",
+  "definition": {
+    "name": "Light Touch Minerals",
+    "icon": {
+      "value": "CUSTOM:TungstenIngot"
+    },
+    "showSearch": false
+  }
+}

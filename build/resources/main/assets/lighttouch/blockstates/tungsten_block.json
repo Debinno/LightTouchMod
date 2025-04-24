@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "lighttouch:block/tungsten_block"
+    }
+  }
+}

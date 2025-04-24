@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "lighttouch:block/maple_log_top",
+    "up": "lighttouch:block/maple_log_top",
+    "north": "lighttouch:block/maple_log",
+    "east": "lighttouch:block/maple_log",
+    "south": "lighttouch:block/maple_log",
+    "west": "lighttouch:block/maple_log",
+    "particle": "lighttouch:block/maple_log_top"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "lighttouch:block/red_maple_leaves",
+    "particle": "lighttouch:block/red_maple_leaves"
+  }
+}

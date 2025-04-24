@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "lighttouch:block/maple_slab"
+    },
+    "type=top": {
+      "model": "lighttouch:block/maple_slab_top"
+    },
+    "type=double": {
+      "model": "lighttouch:block/maple_slab_full"
+    }
+  }
+}
